@@ -33,8 +33,12 @@ Converting Text:
 
 Cleaning Text: 
 - FAIL: The stemming of the texts made the words difficult to read, and may not be effective in later stages. (e.g. "Thailand" became "Thlnd". etc. )
-Unfulfilled Tasks
 
 Engineering:
 - FAIL: The engineering (or structure) of this program is still poor. Please do let me know of any suggestions you could make in order to improve runtime. Maybe put everything into a function? 
+
+Unfulfilled Tasks
+------------------
+- NLP to recognize entities fromt text and assign them to the correct entities. 
+- Creating a JSON
 
