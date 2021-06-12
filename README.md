@@ -22,7 +22,7 @@ Requirements (Modules and APIs and how they were used in the parantheses.)
 ------------------
 
 - OS (Used for creating a new file and directory, and writing into the newly created file.)
-- Slate (Extracting text from PDF.)
+- Slate (Extracting text from PDF)
 - Json (This will be used later for creating a JSON and populating it with extracted data.)
 - String 
 - nltk (Natural Language Tool Kit) (Used for cleaning text)
