@@ -2,10 +2,12 @@ What does this program do?
 ------------------
 
 Quick summarization:
+------------------
 
 This program extracts text from a PDF file (located in the "input" directory), takes text out of the PDF file, cleans the text, and once again put the completed text file into a directory titled and puts the completed results into the "output" directory . 
 
-A simple breakdown on how this all works:
+Simple breakdown on how this all works:
+------------------
 
 - PDF file is put into the "input folder" to be processed. 
 - The program loops to check in current working directory if the "output" directory exists, if not it creates it. 
