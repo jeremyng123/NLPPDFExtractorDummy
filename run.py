@@ -21,7 +21,7 @@ import re
 import string
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer # or LancasterStemmer, RegexpStemmer, SnowballStemmer
+from nltk.stem import PorterStemmer 
 
 """Opens the file in order to clean the text"""
 f = open('/Users/paulkasidit/Desktop/NLPPDFExtractorDummy/output/output.txt','r+')
@@ -29,7 +29,7 @@ text_to_be_cleaned = f.readlines()
 
 """Cleaning the text"""
 default_stemmer = PorterStemmer()
-default_stopwords = stopwords.words('english') # or any other list of your choice
+default_stopwords = stopwords.words('english') 
 
 def CleanText(text):
 
