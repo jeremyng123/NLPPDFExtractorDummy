@@ -43,6 +43,6 @@ Engineering:
 
 Unfulfilled Tasks
 ------------------
-- NLP to recognize entities fromt text and assign them to the correct entities. 
-- Creating a JSON
+- Recognize entities from text and assign them to the correct entities. 
+- Creating a JSON file. 
 
