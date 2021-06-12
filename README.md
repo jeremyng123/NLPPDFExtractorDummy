@@ -10,7 +10,7 @@ A simple breakdown on how this all works:
 - PDF file is put into the "input folder" to be processed. 
 - The program loops to check in current working directory if the "output" directory exists, if not it creates it. 
 - With the OS module, an empty text file called "output.txt" is created, ready for writing. 
--The uncleaned extracted text is written into "output.txt". 
+- The uncleaned extracted text is written into "output.txt". 
 - Now we move onto text cleaning with the Natural Language Toolkit (nltk). Some text cleaning processes include tokenizing, removing special characters, removing stopwords (words such as "an, "and", etc.).
 - We clear the original content (the uncleaned text), and write the new and cleaned text into it instead.
 - We save and close the file. (This is the latest step so far). 
