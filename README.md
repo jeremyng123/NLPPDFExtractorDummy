@@ -1,5 +1,5 @@
 What does this program do?
-____________________
+------------------
 
 Quick summarization:
 
@@ -17,7 +17,8 @@ A simple breakdown on how this all works:
 
 
 Requirements (Modules and APIs and how they were used in the parantheses.)
-______________________________________
+------------------
+
 - OS (Used for creating a new file and directory, and writing into the newly created file.)
 - Slate (Extracting text from PDF.)
 - Json (This will be used later for creating a JSON and populating it with extracted data.)
@@ -27,7 +28,8 @@ ______________________________________
 - re 
 
 What worked and what did not?
-______________________________
+------------------
+
 Converting Text:
 - WORKS: Slate is better than PyPDF2 because the latter was not able to extract texts from PDF. 
 
