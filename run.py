@@ -1,4 +1,4 @@
-import os, json, string
+import PyPDF2, os, json, string
 import slate3k as slate
 
 """Extracting text from the PDF file and converting it to text format """
@@ -21,7 +21,7 @@ import re
 import string
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer # or LancasterStemmer, RegexpStemmer, SnowballStemmer
+from nltk.stem import PorterStemmer 
 
 """Opens the file in order to clean the text"""
 f = open('/Users/paulkasidit/Desktop/NLPPDFExtractorDummy/output/output.txt','r+')
@@ -29,7 +29,7 @@ text_to_be_cleaned = f.readlines()
 
 """Cleaning the text"""
 default_stemmer = PorterStemmer()
-default_stopwords = stopwords.words('english') # or any other list of your choice
+default_stopwords = stopwords.words('english') 
 
 def CleanText(text):
 
@@ -53,7 +53,7 @@ def CleanText(text):
 
     text = text.strip(' ') # strip whitespaces
     text = text.lower() # lowercase
-    text = stem_text(text) # stemming
+    """text = stem_text(text) # stemming"""
     text = remove_special_characters(text) # remove punctuation and symbols
     text = remove_stopwords(text) # remove stopwords
     #text.strip(' ') # strip whitespaces again?
@@ -65,16 +65,10 @@ f.truncate(0)
 
 f.write((CleanText(text_to_be_cleaned))).close
 
-#calling the Bullhorn API in order to parse the resume 
+#Calling the Bullhorn API in order to parse the resume 
     #Authenticating bullhorn API (from another file)
         #if authenticating does not exists, return "authentication required.
     
-
-    
-#creating a candidate entity 
-    #Call API to create candidate entity 
-    #*Find out where this is saved
-
 
 #writing the text to a json file (maybe?)
 
