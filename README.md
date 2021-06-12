@@ -28,7 +28,7 @@ ______________________________________
 
 What worked and what did not?
 ______________________________
-Modules: 
+
 - WORKS: Slate is better than PyPDF2 because the latter was not able to extract texts from PDF. 
 Cleaning Text: 
 - FAIL: The stemming of the texts made the words difficult to read, and may not be effective in later stages. (e.g. "Thailand" became "Thlnd". etc. )
