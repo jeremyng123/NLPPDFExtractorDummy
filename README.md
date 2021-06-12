@@ -28,11 +28,13 @@ ______________________________________
 
 What worked and what did not?
 ______________________________
-
+Converting Text:
 - WORKS: Slate is better than PyPDF2 because the latter was not able to extract texts from PDF. 
+
 Cleaning Text: 
 - FAIL: The stemming of the texts made the words difficult to read, and may not be effective in later stages. (e.g. "Thailand" became "Thlnd". etc. )
 Unfulfilled Tasks
+
 Engineering:
 - FAIL: The engineering (or structure) of this program is still poor. Please do let me know of any suggestions you could make in order to improve runtime. Maybe put everything into a function? 
 
