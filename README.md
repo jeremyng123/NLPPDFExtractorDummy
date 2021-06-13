@@ -21,7 +21,7 @@ ______________________________________
 - OS (Used for creating a new file and directory, and writing into the newly creaeted file.)
 - Slate (Extracting text from PDF.)
 - Json (This will be used later for creating a JSON and populating it with extracted data.)
-- String 
+- String (This is used to convert to PDF file into a string object, this is required for further steps.)
 - nltk (Natural Language Tool Kit) (Used for cleaning text)
 - PorterStemmer (Stems text, it may be removed)
 - re 
