@@ -1,4 +1,4 @@
-import PyPDF2, os, json, string
+import os, json, string
 import slate3k as slate
 
 """Extracting text from the PDF file and converting it to text format """
@@ -63,14 +63,17 @@ def CleanText(text):
 """Clears the original content(uncleaned text) and writes cleaned text to the same file."""
 f.truncate(0)
 
-f.write((CleanText(text_to_be_cleaned))).close
+f.write((CleanText(text_to_be_cleaned)))
 
-#Calling the Bullhorn API in order to parse the resume 
-    #Authenticating bullhorn API (from another file)
-        #if authenticating does not exists, return "authentication required.
-    
+from secrets import api_key
+import requests 
+
+#Parsing the Resume 
+    #Authentication
+    #Extract text from output.txt 
+
+
 
 #writing the text to a json file (maybe?)
-
-    
+    #function to assign to relevant keys in "information.json"
 
